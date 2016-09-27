@@ -61,8 +61,8 @@ groundTruth = full(sparse(labels, 1:M, 1));
 %                match exactly that of the size of the matrices in stack.
 %
 N = numel(stack);
-z = cell(n+1, 1);
-a = cell(n+1, 1);
+z = cell(N+1, 1);
+a = cell(N+1, 1);
 a{1} = data;
 
 
